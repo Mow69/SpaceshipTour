@@ -25,4 +25,35 @@ main > img {
     width: 50%;
     z-index: 2;
 }
-
+.bloc-right > .title {
+    text-align: center;
+    font-size: 30px;
+}
+.bloc-right > .center {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.bloc-right > .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bloc-right > .bottom > .text-prix {
+    width: 45%;
+    text-align: center;
+}
+.bloc-right > .bottom > .text-prix > .prix {
+    color: #FFFF00;
+}
+.bloc-right > .bottom > .reservation {
+    background-color: #FF4BB5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 45%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
