@@ -1,0 +1,28 @@
+.img-venus {
+    width: 570px;
+    height: 580px;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main > img {
+
+    width: 570px;
+    height: 580px;
+    z-index: 1;
+}
+.bloc-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    z-index: 2;
+}
+
