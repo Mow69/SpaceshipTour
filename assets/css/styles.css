@@ -29,6 +29,23 @@ ul {
   list-style: none;
 }
 
+.btn-reservation {
+  border: none;
+  background-color: #ff4bb5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+.btn-reservation:hover {
+  background-color: #e9d41e;
+}
+
 /* Navbar */
 nav {
   display: flex;

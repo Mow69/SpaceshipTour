@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,8 +7,8 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="../assets/css/neptune.css">
-    <title>SpaceshipTour: Neptune</title>
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <title>SpaceshipTour: Contact / Réservation</title>
 </head>
 
 <body>
@@ -35,26 +35,30 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <img class="img-neptune" src="../assets/images/image-neptune.png" alt="image neptune">
-        <div class="bloc-right">
-            <div class="title">
-                <h1>Croisière découverte</h1>
-                <h1>Neptune</h1>
-            </div>
-            <div class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-            <div class="bottom">
-                <div class="text-prix">
-                    <p class="a-partir">A partir de :</p>
-                    <p class="prix">1 200 00 &euro / personne</p>
+
+    <section>
+        <form action="#" method="post">
+            <div id="contact-form">
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="utilisateur_nom">
                 </div>
-                <a type="button" class="btn-reservation" href="../pages/contact.html">Réservation</a>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="utilisateur_prenom">
+                </div>
+                <div>
+                    <label for="mail">Adresse e-mail</label>
+                    <input type="email" id="mail" name="utilisateur_nom">
+                </div>
+                <div>
+                    <label for="msg">Commentaire</label>
+                    <textarea id="msg" name="utilisateur_message"></textarea>
+                </div>
             </div>
-        </div>
-    </main>
+        </form>
+    </section>
+
     <footer>
         <div class="reseaux-sociaux">
             <a href="#">
