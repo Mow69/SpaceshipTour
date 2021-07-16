@@ -1,9 +1,66 @@
+@font-face {
+  font-family: "SeoulHangang CBL";
+  src: url("../assets/fonts/seoulhangang-cbl/SeoulHangangCondensed-BoldL.ttf")
+    format("ttf");
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
 nav,
 section {
   background-color: #000;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+#nav-title {
+  display: flex;
+}
+
+#nav-title h1 {
+  font-family: "SeoulHangang CBL", "Roboto", Arial, sans-serif;
+}
+
+#logo {
+  margin: 1rem;
+}
+
+#nav-links {
+  display: flex;
+}
+
+#nav-links li {
+  margin: 1rem;
+}
+
+.nav-active-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-active-line {
+  border-bottom: 0.5rem solid;
+  border-color: rgba(255, 75, 181, 0.8);
+  margin-left: 40%;
+  margin-right: -20%;
+  margin-top: -16%;
 }
