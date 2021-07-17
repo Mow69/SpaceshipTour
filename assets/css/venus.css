@@ -30,30 +30,38 @@ main > img {
     font-size: 30px;
 }
 .bloc-right > .center {
-    width: 90%;
-    margin-left: 5%;
+    font-family: "Popins", Arial, sans-serif;
     margin-bottom: 30px;
     text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #EEEEEE;
+    width: 90%;
+    margin-left: 5%;
 }
 .bloc-right > .bottom {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .bloc-right > .bottom > .text-prix {
-    width: 45%;
+    width: 270px;
     text-align: center;
-}
-.bloc-right > .bottom > .text-prix > .prix {
     color: #FFFF00;
+    font-size: 24px;
+    font-weight: bold;
+
 }
 .bloc-right > .bottom > .reservation {
     background-color: #FF4BB5;
     color: #FFFFFF;
     border-radius: 4px;
-    width: 45%;
+    width: 270px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px 0;
 }
