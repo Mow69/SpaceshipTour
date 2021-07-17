@@ -1,10 +1,9 @@
 .bloc-right {
     display: flex;
     flex-direction: column;
-    width: 730px;
+    width: 400px;
     z-index: 2;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 80px;
 }
 .bloc-right > .title {
     text-align: left;
@@ -50,6 +49,6 @@
     width: 600px;
 }
 .bloc-right > .center > h1:nth-child(2) {
-    margin-top: 20px;
+    margin: 24px 0;
     color: #998E8D;
 }
