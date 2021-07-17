@@ -29,7 +29,7 @@ ul {
   list-style: none;
 }
 
-.btn-reservation {
+.bouton {
   border: none;
   background-color: #ff4bb5;
   padding: 15px 32px;
@@ -41,8 +41,10 @@ ul {
   cursor: pointer;
   border-radius: 8px;
   transition-duration: 0.4s;
+  color: #fff;
 }
-.btn-reservation:hover {
+
+.bouton:hover {
   background-color: #e9d41e;
 }
 
