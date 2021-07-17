@@ -35,17 +35,6 @@
   left: 50%;
 }
 
-.main-contact {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .main-contact section h2,
 .main-contact section h3 {
   z-index: 2;
