@@ -1,23 +1,31 @@
-@font-face {
-  font-family: "SeoulHangang CBL";
-  src: url("../assets/fonts/seoulhangang-cbl/SeoulHangangCondensed-BoldL.ttf")
-    format("ttf");
-}
-
 * {
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: "SeoulHangang CBL";
+  src: url("../assets/fonts/seoulhangang-cbl/SeoulHangangCondensed-BoldL.ttf")
+  format("ttf");
+}
 html {
   font-size: 100%;
 }
-
 body {
-  font-family: "Roboto", Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #000000;
-  color: #ffffff;
+  color: #FFFFFF;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+nav,
+section {
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 a {
@@ -27,31 +35,6 @@ a {
 
 ul {
   list-style: none;
-}
-
-.bouton {
-  border: none;
-  background-color: #ff4bb5;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition-duration: 0.4s;
-  color: #fff;
-}
-
-.bouton:hover {
-  background-color: #e9d41e;
-}
-
-/* Navbar */
-nav {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 #nav-title {
@@ -87,7 +70,6 @@ nav {
   margin-top: -16%;
 }
 
-/* Footer */
 footer {
   width: 100%;
   height: 100px;
@@ -95,21 +77,18 @@ footer {
   align-items: center;
   flex-direction: column;
 }
-
 .reseaux-sociaux {
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
 }
-
 .reseaux-sociaux > a {
   margin: 0 4px;
 }
-
 .reseaux-sociaux > a > button {
   width: 40px;
   height: 40px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   color: #000000;
   border-radius: 8px;
   cursor: pointer;
@@ -117,5 +96,5 @@ footer {
 }
 
 .reseaux-sociaux > a > button:hover {
-  background-color: #cccccc;
+  background-color: #CCCCCC;
 }

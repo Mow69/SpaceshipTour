@@ -1,4 +1,4 @@
-.img-neptune {
+.img-mars {
     width: 570px;
     height: 580px;
 }
@@ -57,3 +57,8 @@ main > img {
     justify-content: center;
     align-items: center;
 }
+
+header .social li a:hover { color: deeppink; }
+
+© 2021 GitHub, Inc.
+
