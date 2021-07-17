@@ -10,7 +10,7 @@
     margin-right: 7px;
     z-index: 2;
 }
-.bloc-right > .title:n {
+.bloc-right > .title {
     text-align: center;
     font-size: 30px;
     margin-bottom: 30px;
