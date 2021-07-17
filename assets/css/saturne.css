@@ -22,23 +22,22 @@ main > img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 627px;
+    width: 580px;
     margin-right: 7px;
     z-index: 2;
 }
 .bloc-left > .title {
     font-size: 30px;
-    width: 480px;
+    width: 420px;
 }
 .bloc-left > .center {
     font-family: "ScopeOne",Arial, sans-serif;
-    margin-bottom: 50px;
-    text-align: justify;
+    margin-bottom: 48px;
     font-size: 36px;
-    width: 480px;
+    width: 420px;
 }
 .bloc-left > .bottom {
-    width: 480px;
+    width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
