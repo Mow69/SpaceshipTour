@@ -18,7 +18,7 @@ main > img {
     height: 580px;
     z-index: 1;
 }
-.bloc-right {
+.bloc-left {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,28 +26,28 @@ main > img {
     margin-right: 7px;
     z-index: 2;
 }
-.bloc-right > .title {
+.bloc-left > .title {
     font-size: 30px;
     width: 480px;
 }
-.bloc-right > .center {
+.bloc-left > .center {
     font-family: "ScopeOne",Arial, sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: justify;
     font-size: 36px;
     width: 480px;
 }
-.bloc-right > .bottom {
+.bloc-left > .bottom {
     width: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.bloc-right > .bottom > .text-prix > .prix {
+.bloc-left > .bottom > .text-prix > .prix {
     color: #FFFF00;
     font-size: 24px;
 }
-.bloc-right > .bottom > .reservation {
+.bloc-left > .bottom > .reservation {
     background-color: #FF4BB5;
     color: #FFFFFF;
     border-radius: 4px;
