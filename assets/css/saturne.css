@@ -22,37 +22,39 @@ main > img {
 .bloc-right {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    align-items: center;
+    width: 627px;
+    margin-right: 7px;
     z-index: 2;
 }
 .bloc-right > .title {
-    text-align: center;
     font-size: 30px;
+    width: 480px;
 }
 .bloc-right > .center {
-    width: 90%;
-    margin-left: 5%;
+    font-family: "ScopeOne",Arial, sans-serif;
     margin-bottom: 30px;
     text-align: justify;
+    font-size: 36px;
+    width: 480px;
 }
 .bloc-right > .bottom {
+    width: 480px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-}
-.bloc-right > .bottom > .text-prix {
-    width: 45%;
-    text-align: center;
 }
 .bloc-right > .bottom > .text-prix > .prix {
     color: #FFFF00;
+    font-size: 24px;
 }
 .bloc-right > .bottom > .reservation {
     background-color: #FF4BB5;
     color: #FFFFFF;
     border-radius: 4px;
-    width: 45%;
-    height: 40px;
+    width: 270px;
+    height: 50px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
