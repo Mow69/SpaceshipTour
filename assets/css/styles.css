@@ -90,7 +90,9 @@ ul {
   border-bottom: 0.5rem solid;
   border-color: transparent;
 }
-
+nav > ul > li > a:hover {
+  color: #FF4BB5;
+}
 .nav-active-link {
   display: flex;
   flex-direction: column;
